@@ -11,5 +11,5 @@ void main() {
   // double -> String
   var piAsString = 3.14159.toStringAsFixed(2); // String piAsString = '3.14'
 
-  print(piAsString);
+  print('string to in $eleven \nstring to double $elevenPointTwo \nint to string $elevenAsString \ndouble to string $piAsString');
 }

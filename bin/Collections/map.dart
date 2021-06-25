@@ -6,6 +6,5 @@ void main(){
   };
   capital['New Delhi'] = 'India';
 
-
   print(capital['Tokyo']);
 }

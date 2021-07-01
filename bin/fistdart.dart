@@ -1,11 +1,10 @@
-void main() {
-  var capital = {
-    'Jakarta': 'Indonesia',
-    'London': 'England',
-    'Tokyo': 'Japan'
-  };
-  capital['New Delhi'] = 'India';
+Future<void> main() async {
+  print('Fetching username...');
+  var username = fetchUsername();
+  print('You are logged in as $username');
+  print('Welcome!');
+}
 
-
-  print(capital['Tokyo']);
+Future<String> fetchUsername() {
+  return Future.delayed(Duration(seconds: 3), () => 'DartUser');
 }

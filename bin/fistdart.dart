@@ -1,11 +1,10 @@
 void main() {
-  print('Fetching username...');
-  fetchUsername().then((value) {
-    print('You are logged in as $value');
-  });
-  print('Welcome!');
-}
-
-Future<String> fetchUsername() {
-  return Future.delayed(Duration(seconds: 3), () => 'DartUser');
+  try {
+    print('Fetching username...');
+    var username = await fetchUsername();
+    print('You are logged in as $username');
+    print('Welcome!');
+  } catch(e) {
+    print(e);
+  }
 }

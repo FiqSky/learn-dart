@@ -1,3 +1,3 @@
 void main(){
-  print("Hello world im Fiqih Firdaus Maulana");
+  print("Hello world im Fiqih yo");
 }

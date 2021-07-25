@@ -1,0 +1,19 @@
+
+Apa yang bisa kita lakukan dengan fitur terbaru Dart, yaitu extension methods? Membuat method tambahan pada library yang sudah ada
+Berikut ini adalah pilar-pilar OOP, kecuali… Reusability
+Manakah kode yang tepat untuk menginisialisasi kelas tersebut? var car = Car()
+Mengapa kita perlu membuat class menjadi abstract? Agar nilai dari sebuah class dapat diwariskan kepada class lain/  Agar nilai dari sebuah class tidak dapat diwariskan kepada class lain /
+Istilah pewarisan pada paradigma Object Oriented Programming biasa dikenal dengan… Inheritance
+Keyword untuk mendeklarasikan interface pada Dart adalah? class
+Apakah pengertian dari abstraction? secara high level
+Kapan kita perlu menggunakan mixin di dalam Dart? Ketika perlu menggunakan kode dari kelas lain tanpa terikat hierarki kelas
+Di antara pilihan berikut manakah yang tepat untuk menjadi method dari class Vehicle? turnLeft& turnRight
+
+
+
+DO initialize fields at their declaration when possible. = Tidak
+DO use mixin to define a mixin type. = Ketika kelas yang dibuat tidak ingin dijadikan instance 
+Ketika sebuah aturan dimulai dengan kata kunci “Avoid”, apa yang perlu Anda lakukan terhadap kodenya? Menghindari praktik
+DO capitalize acronyms and abbreviations longer than two letters like words.HttpRequest, HttpsFtp, DBConnection
+PREFER using lowerCamelCase for constant names. final daysOfWeek = 7
+Manakah variabel berikut ini yang mengikuti aturan “PREFER the “positive” name for a boolean property or variable.” ? No Use &
